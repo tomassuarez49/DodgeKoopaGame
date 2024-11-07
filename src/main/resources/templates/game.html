@@ -574,7 +574,7 @@ window.onload = () => {
     generateRoomCode();
 
     // Inicializamos el WebSocket primero
-    socket = new WebSocket("ws://192.168.10.33:8081/chat");
+    socket = new WebSocket("wss://dodgekoopagame-e0efbmece8bfcse9.canadacentral-01.azurewebsites.net:8080/chat");
 
      socket.onopen = () => {
         console.log("Conectado al servidor WebSocket");
