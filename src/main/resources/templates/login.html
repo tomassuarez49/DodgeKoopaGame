@@ -81,7 +81,7 @@
         let isGameStarted = false;
 
         // Conectarse al WebSocket para verificar el estado del juego
-        const socket = new WebSocket("wss://dodgekoopagame-e0efbmece8bfcse9.canadacentral-01.azurewebsites.net:8080/chat\"");
+        const socket = new WebSocket("wss://dodgekoopagame-e0efbmece8bfcse9.canadacentral-01.azurewebsites.net:8080/chat");
 
         // Recibir mensaje del servidor para verificar si el juego está iniciado
         socket.onmessage = (event) => {
